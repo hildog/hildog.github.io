@@ -1,5 +1,7 @@
 body {
 	background-color: #4999B2;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+    background-repeat: y; 
 }
 
 h1 {
@@ -49,7 +51,8 @@ li a:hover {
     background-color: #111;
 }
 header {
-    background-color: #4999B2;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+    background-repeat: repeat-y;
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
@@ -72,9 +75,11 @@ aside {
     margin: auto;
     width: 80%;
     padding: 20px ;
+    text-overflow: hidden;
+
 }
 article {
-    background-color: #3E28E3;
+    background-color: #d3d3d3;
     margin: auto;
     width: 80%;
     padding: 20px;
@@ -83,6 +88,56 @@ article {
 h2 {
     font-size: 60px;
     text-align: center;
+    text-transform: uppercase;
 }
+#offer {
+    background-color: #d3d3d3;
+    background-image: url("https://www.walldevil.com/wallpapers/a24/pony-friendship-magic-wallpaper-little-color-red-blue-gradient-photo.jpg");
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 80%;
+#everything {
+    background color: #000;
+}
+div.everything {
+    background-color: #000;
+    padding: 20px
+    width: 80%;
+    float: right;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
