@@ -79,7 +79,7 @@ aside {
 
 }
 article {
-    background-color: #d3d3d3;
+    background-color: purple;
     margin: auto;
     width: 80%;
     padding: 20px;
@@ -98,18 +98,37 @@ h2 {
     padding-bottom: 20px;
     margin: auto;
     width: 80%;
-#everything {
-    background color: #000;
 }
-div.everything {
+#sandwiches {
     background-color: #000;
-    padding: 20px
-    width: 80%;
+    padding: 1px;
+    padding-bottom: 1px;
+    margin: auto;
+    width: 20%;
+    float: margin-left;
+}
+#breakfast {
+    background-color: #d3d3d3;
+    padding: 1px;
+    padding-bottom: 1px;
+    margin: auto;
+    width: 33%;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden;
+}
+#drinks {
+    background-color: #fff;
+    padding: 1px;
+    padding-bottom: 1px;
+    margin: auto;
+    width: 33%;
     float: right;
+    margin-left: 30px;
+}
+div.food {
     margin: auto;
 }
-
-
 
 
 
