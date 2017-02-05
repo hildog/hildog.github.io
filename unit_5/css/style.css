@@ -1,8 +1,9 @@
-body {
+.wrapper {
 	background-color: #4999B2;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: y; 
-    margin:auto;
+    width: 75%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -92,8 +93,8 @@ aside {
     background-color: #FFF;
     width: 80%;
     padding: 20px;
-    display: inline-block;
-    align-content: right;
+    display: block;
+    margin: 0 auto;
 }
 article {
     background-color: #B2AC52;
@@ -124,6 +125,7 @@ span {
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: repeat-y;
      background-color: #d3d3d3;
+     margin: auto;
    }
 .column-right { 
     float: right;
@@ -131,6 +133,7 @@ span {
      background-color: #d3d3d3; 
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
      background-repeat: repeat-y;
+     margin: auto;
      height: 300px;
  }
 .column-center { 
@@ -140,15 +143,18 @@ span {
     background-color: #d3d3d3;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: repeat-y;
+    margin: auto;
 }
 
 
+.banner {
+    width: 83%;
+}
 
-
-
-
-
-
+.social-media {
+    width: 33px;
+    height: 50px;
+}
 
 
 
