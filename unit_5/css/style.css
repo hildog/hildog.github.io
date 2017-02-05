@@ -2,7 +2,7 @@
 	background-color: #4999B2;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: y; 
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -105,6 +105,22 @@ article {
     padding: 20px;
     padding-bottom: 20px;
 }
+section {
+    background-color: #000;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+#menus {
+   background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 80%;
+    display: inline-block;
+}
 #offer {
     background-color: #fff;
     background-repeat: repeat-y;
@@ -121,11 +137,12 @@ span {
 .column-left {
     float: left;
      width: 33%;
-     height: 300px;
-    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
-    background-repeat: repeat-y;
-     background-color: #d3d3d3;
+     background-color: #d3d3d3; 
+     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+     background-repeat: repeat-y;
      margin: auto;
+     height: 300px;
+     display: inline-block;
    }
 .column-right { 
     float: right;
@@ -135,6 +152,7 @@ span {
      background-repeat: repeat-y;
      margin: auto;
      height: 300px;
+     display: inline-block;
  }
 .column-center { 
     display: inline-block; 
@@ -152,8 +170,7 @@ span {
 }
 
 .social-media {
-    width: 33px;
-    height: 50px;
+    width: 100px;
 }
 
 
