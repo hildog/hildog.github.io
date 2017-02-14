@@ -1,5 +1,5 @@
 .wrapper {
-	background-color: #4999B2;
+    background-color: #4999B2;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: y; 
     width: 100%;
@@ -7,10 +7,10 @@
 }
 
 h1 {
-	color: purple;
-	font-family:'Righteous', cursive;
-	text-align: center;
-	font-size: 100px;
+    color: purple;
+    font-family:'Righteous', cursive;
+    text-align: center;
+    font-size: 100px;
     text-transform: uppercase;
 }
 h4 {
@@ -27,21 +27,21 @@ h3 {
     text-align: center;
 }
 p {
-	font-family: 'Vollkorn', serif;
+    font-family: 'Vollkorn', serif;
     font-size: 15px
     line-height: 20%;
-	text-align: center;
+    text-align: center;
     size: 100px
-	color: #000;
+    color: #000;
     text-decoration: bold;
 }
 
 }
 h2 {
-	color: white;
+    color: white;
     font-family:'Righteous', cursive;
-	font-size: 12px;
-	text-align: center;
+    font-size: 12px;
+    text-align: center;
 }
 ul {
     list-style-type: none;
@@ -130,39 +130,41 @@ section {
     margin: auto;
     width: 80%;
 }
-#two_column
-    background-color: #fffb7cf;
-    border: 1px black solid;
-    padding: 20px;
-}
-#left {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 10%;
-}
-
-#right {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 10%;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 span {
     width: 200px;
     font-size: 15px;
 }
+.column-left {
+    float: left;
+     width: 33%;
+     background-color: #d3d3d3; 
+     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+     background-repeat: repeat-y;
+     margin: auto;
+     height: 300px;
+     display: inline-block;
+   }
+.column-right { 
+    float: right;
+     width: 33%;
+     background-color: #d3d3d3; 
+     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+     background-repeat: repeat-y;
+     margin: auto;
+     height: 300px;
+     display: inline-block;
+ }
+.column-center { 
+    display: inline-block; 
+    width: 33%;
+    height: 300px;
+    background-color: #d3d3d3;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+    background-repeat: repeat-y;
+    margin: auto;
+}
+
+
 .banner {
     width: 83%;
 }
