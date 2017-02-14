@@ -1,0 +1,198 @@
+.wrapper {
+	background-color: #4999B2;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+    background-repeat: y; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+	color: purple;
+	font-family:'Righteous', cursive;
+	text-align: center;
+	font-size: 100px;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 50px;
+    font-family:'righteous', curisve;
+    color: #452DFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3 {
+    color: #452DFF;
+    font-family: 'righteous', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+	font-family: 'Vollkorn', serif;
+    font-size: 15px
+    line-height: 20%;
+	text-align: center;
+    size: 100px
+	color: #000;
+    text-decoration: bold;
+}
+
+}
+h2 {
+	color: white;
+    font-family:'Righteous', cursive;
+	font-size: 12px;
+	text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 3;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #B2AC52;
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+header {
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+    background-repeat: repeat-y;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: center;
+}
+footer {
+    background-color: #d3d3d3;
+    padding: 20px;
+    text-align: right;
+    width: 80%;
+    margin: auto;
+}
+aside {
+    background-color: #FFF;
+    width: 80%;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+}
+article {
+    background-color: #B2AC52;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+    background-repeat: repeat-x;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+section {
+    background-color: #000;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+#menus {
+   background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 80%;
+    display: inline-block;
+}
+#offer {
+    background-color: #fff;
+    background-repeat: repeat-y;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 80%;
+}
+#two_column
+    background-color: #fffb7cf;
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 10%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 10%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+span {
+    width: 200px;
+    font-size: 15px;
+}
+.banner {
+    width: 83%;
+}
+
+.social-media {
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
