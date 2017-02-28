@@ -139,8 +139,9 @@ span {
      width: 100%;
      background-color: #d3d3d3; 
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
-     background-repeat: repeat-x;
+     background-repeat: repeat-y;
      margin: auto;
+     height: 300px;
      display: inline-block;
    }
 .column-right { 
@@ -150,11 +151,13 @@ span {
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
      background-repeat: repeat-y;
      margin: auto;
+     height: 300px;
      display: inline-block;
  }
 .column-center { 
     display: inline-block; 
     width: 100%;
+    height: 300px;
     background-color: #d3d3d3;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: repeat-y;
@@ -169,10 +172,7 @@ span {
 .social-media {
     width: 100px;
 }
-@media screen only and (max-width: 86px) {
-body {
-font-size: 12px;
-}
+
 
 
 
