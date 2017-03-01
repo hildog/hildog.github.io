@@ -136,7 +136,8 @@ span {
 }
 .column-left {
     float: left;
-     width: 100%;
+     width: 30%;
+     height: 30%;
      background-color: #d3d3d3; 
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
      background-repeat: repeat-x;
@@ -145,7 +146,8 @@ span {
    }
 .column-right { 
     float: right;
-     width: 100%;
+     width: 30%;
+     height: 30%;
      background-color: #d3d3d3; 
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
      background-repeat: repeat-y;
@@ -154,7 +156,8 @@ span {
  }
 .column-center { 
     display: inline-block; 
-    width: 100%;
+    width: 30%;
+    height: 30%;
     background-color: #d3d3d3;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: repeat-y;
