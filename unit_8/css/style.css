@@ -236,9 +236,20 @@ img {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-    float: none;
-    width: auto;
-
+     .column-left {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-center {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-right {
+        float: none;
+        width: auto;
+        font-size: 2em;
 }
 
 /* Portrait */
@@ -247,9 +258,20 @@ img {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    float: none;
-    width: auto;
-
+       .column-left {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-center {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-right {
+        float: none;
+        width: auto;
+        font-size: 2em;
 }
 
 /* Landscape */
@@ -258,8 +280,20 @@ img {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    float: none;
-    width: auto;
+    .column-left {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-center {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-right {
+        float: none;
+        width: auto;
+        font-size: 2em;
 
 }
 
@@ -270,8 +304,20 @@ img {
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    float: none;
-    width: auto;
+    .column-left {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-center {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-right {
+        float: none;
+        width: auto;
+        font-size: 2em;
 
 }
 
@@ -281,9 +327,20 @@ img {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
-    float: none;
-    width: auto; 
-
+        .column-left {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-center {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-right {
+        float: none;
+        width: auto;
+        font-size: 2em;
 }
 
 /* Landscape */
@@ -292,6 +349,20 @@ img {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+        .column-left {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-center {
+        float: none;
+        width: auto;
+        font-size: 2em;
+    }
+    .column-right {
+        float: none;
+        width: auto;
+        font-size: 2em;
 
 }
 
