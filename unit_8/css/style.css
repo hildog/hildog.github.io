@@ -137,17 +137,19 @@ span {
 .column-left {
     float: left;
      width: 30%;
+     height: 500px;
      background-color: #d3d3d3; 
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
      background-repeat: repeat-y;
      margin: auto;
      display: inline-block;
      overflow: hidden;
-     padding: 2px 2px 2px 2px;
+     padding: 10px 10px 10px 10px;
    }
 .column-right { 
     float: right;
      width: 30%;
+     height: 500px;
      background-color: #d3d3d3; 
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
      background-repeat: repeat-y;
@@ -157,12 +159,20 @@ span {
 .column-center { 
     display: inline-block; 
     width: 30%;
+    height: 500px;
     background-color: #d3d3d3;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: repeat-y;
     margin: auto;
     margin-left: 5%;
     overflow: hidden;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    height: 0;
 }
 
 
