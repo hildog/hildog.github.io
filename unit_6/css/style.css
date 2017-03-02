@@ -137,31 +137,32 @@ span {
 .column-left {
     float: left;
      width: 30%;
-     height: 30%;
      background-color: #d3d3d3; 
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
      background-repeat: repeat-x;
      margin: auto;
      display: inline-block;
+     line-height: 40px;
    }
 .column-right { 
     float: right;
      width: 30%;
-     height: 30%;
      background-color: #d3d3d3; 
      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
      background-repeat: repeat-y;
      margin: auto;
      display: inline-block;
+     line-height: 40px;
  }
 .column-center { 
     display: inline-block; 
     width: 30%;
-    height: 30%;
     background-color: #d3d3d3;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
     background-repeat: repeat-y;
-    margin: auto;
+    margin-left: 5%;
+    padding: 10px;
+    line-height: 40px;
 }
 
 
@@ -172,11 +173,25 @@ span {
 .social-media {
     width: 100px;
 }
+
 @media screen only and (max-width: 86px) {
 body {
 font-size: 12px;
 }
-
+@media only screen and (max-width: 376.5px) {
+    .column-left {
+    float: none;
+    width: auto;
+    }
+     .column-center {
+    float: none;
+    width: auto;
+    }
+     .column-right {
+    float: none;
+    width: auto;
+    }
+}
 
 
 
